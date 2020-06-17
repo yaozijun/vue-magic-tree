@@ -13,6 +13,7 @@ if(!window.jQuery){
 }
 
 require("./lib/jquery.ztree.all");
+require("./lib/jquery.ztree.exhide.min.js");//增加扩展
 
 export default {
   name: 'VueMagicTree',
